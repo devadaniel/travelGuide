@@ -1,0 +1,44 @@
+.package-list-items {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.each-travel-card {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-url {
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #475569;
+  margin-left: 10px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 400px;
+  color: #64748b;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: 100%;
+    color: #64748b;
+  }
+}
